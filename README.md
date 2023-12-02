@@ -5,7 +5,7 @@ Gets a random joke from <icanhazdadjoke.com> and stdout to your terminal ;)
 ## Installation
 
 ```bash
-curl https://raw.githubusercontent.com/rohsec/dadjoke/master/install.sh -o joke.sh && chmod +x joke.sh && mv joke.sh /usr/bin/joke && rm joke.sh 
+curl https://raw.githubusercontent.com/rohsec/dadjoke/master/joke.sh -o joke.sh && chmod +x joke.sh && mv joke.sh /usr/bin/joke && rm joke.sh 
 ```
 
 ## Usage
