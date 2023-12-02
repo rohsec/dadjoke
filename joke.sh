@@ -7,7 +7,7 @@ fetch_joke()
 	if [[ $(echo $resp|jq -r '.status') -eq 200 ]]
 	then
 #		printf "\n══════════════════════════════════════════════════════════════════"
-		printf "$(echo $resp|jq -r '.joke') "
+		printf "$(echo $resp|jq -r '.joke')\n"
 #		printf "\n══════════════════════════════════════════════════════════════════"
 	else
 		printf "\n Opps!! No jokes for you this time :( !!"
